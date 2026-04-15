@@ -27,7 +27,7 @@ const FriendsCards = ({ friend }) => {
           ))}
         </div>
         <p
-          className={`rounded-full w-fit px-3 mx-auto text-white ${
+          className={`rounded-full w-fit px-2.5 mx-auto text-white ${
             friend.status == "almost due"
               ? "bg-[#EFAD44]"
               : friend.status == "overdue"
