@@ -4,12 +4,15 @@ import "./index.css";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import RootLayout from "./layout/RootLayout";
-import Homepage from "./pages/homepage/Homepage";
-import TimeLinePage from "./pages/timelinepage/TimeLinePage";
-import StatsPage from "./pages/statspage/StatsPage";
+import FriendDetail from './pages/friendDetail/FriendDetail';
+// import TimeLinePage from "./pages/timelinepage/TimeLinePage";
+// import StatsPage from "./pages/statspage/StatsPage";
 import ErrorPage from "./pages/errorPage/ErrorPage";
-import FriendDetails from "./pages/friendDetails/FriendDetails";
+
 import FriendContext from "./context/FriendContext";
+import HomePage from "./pages/homePage/HomePage";
+import TimeLinePage from "./pages/timeLine/TimeLinePage";
+
 
 const router = createBrowserRouter([
   {
@@ -18,12 +21,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: Homepage,
+        Component: HomePage,
         loader: () => fetch("/data.json"),
       },
       {
         path: "/friend/:id",
-        Component: FriendDetails,
+        Component: FriendDetail,
         loader: () => fetch("/data.json"),
       },
       {
@@ -32,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats",
-        Component: StatsPage,
+        // Component: Stats,
       },
     ],
     errorElement: <ErrorPage />,
