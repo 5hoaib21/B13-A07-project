@@ -54,27 +54,21 @@ const Navbar = () => {
         <div className="hidden sm:flex navbar-end gap-3">
           <NavLink
             to="/"
-            className={({ isActive }) =>
-              `btn ${isActive ? "bg-[#244D3F] text-white" : ""}`
-            }
+            className={({ isActive }) => `btn ${isActive ? "btn-neutral" : ""}`}
           >
             {" "}
             <FaHouseUser /> Home
           </NavLink>
           <NavLink
             to="/timeline"
-            className={({ isActive }) =>
-              `btn ${isActive ? "bg-[#244D3F] text-white" : ""}`
-            }
+            className={({ isActive }) => `btn ${isActive ? "btn-neutral" : ""}`}
           >
             {" "}
             <CiViewTimeline /> Timeline
           </NavLink>
           <NavLink
             to="/stats"
-            className={({ isActive }) =>
-              `btn ${isActive ? "bg-[#244D3F] text-white" : ""}`
-            }
+            className={({ isActive }) => `btn ${isActive ? "btn-neutral" : ""}`}
           >
             {" "}
             <ImStatsBars2 /> Stats

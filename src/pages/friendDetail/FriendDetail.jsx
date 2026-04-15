@@ -64,7 +64,7 @@ const FriendDetails = () => {
           <div className="flex justify-center items-center ">
             <img
               className="rounded-full"
-              src={expectedFriend.image}
+              src={expectedFriend.picture}
               alt={expectedFriend.name}
             />
           </div>
