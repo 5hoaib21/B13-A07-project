@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { useLoaderData, useParams } from "react-router";
 
 import { LuMessageSquareText, LuVideo } from "react-icons/lu";
@@ -64,7 +64,7 @@ const FriendDetails = () => {
           <div className="flex justify-center items-center ">
             <img
               className="rounded-full"
-              src={expectedFriend.picture}
+              src={expectedFriend.image}
               alt={expectedFriend.name}
             />
           </div>
@@ -72,10 +72,10 @@ const FriendDetails = () => {
           <p
             className={`rounded-full w-fit px-3 mx-auto text-white ${
               expectedFriend.status == "almost due"
-                ? "bg-[#EFAD44]"
+                ? "badge badge-warning"
                 : expectedFriend.status == "overdue"
-                  ? "bg-[#EF4444]"
-                  : "bg-[#244D3F]"
+                  ? "badge badge-secondary"
+                  : "badge badge-neutral"
             }`}
           >
             {expectedFriend.status}
