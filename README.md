@@ -1,16 +1,32 @@
-# React + Vite
+# KeenKeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Friendship Tracker is an easy-to-use and engaging web application designed to help users organize and monitor their interactions with friends. It allows users to record calls, messages, and video chats, explore a timeline of their activities, and gain insights into their communication habits through visual charts.
 
-Currently, two official plugins are available:
+## Technology
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- Recharts
+- React Router DOM
+- Context API
+- Tailwind CSS
+- Daisy UI
+- React Toastify
+- React Icons
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ### Friend Dashboard
 
-## Expanding the ESLint configuration
+      Easily view all your friends and keep track of their interaction status in one place.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ### Timeline Tracking
+
+      Track and organize your interactions—calls, texts, and video chats—within a clear and structured timeline.
+
+- ### Analytics & Insights
+
+      Analyze your communication habits by visualizing interaction data through intuitive and easy-to-understand charts.
+
+## Demo Link
+
+https://keen-keeper-alpha-eosin.vercel.app/
