@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, useNavigation } from "react-router-dom";
-import Navbar from "../components/shared/Navbar";
-import Footer from "../components/shared/Footer";
+import Navbar from "../components/Shared/Navbar";
+import Footer from "../components/Shared/Footer";
 import { Bounce, ToastContainer } from "react-toastify";
 
 const RootLayout = () => {
