@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
-import { FiPhoneCall } from "react-icons/fi";
-import { LuVideo } from "react-icons/lu";
-import { MdOutlineTextsms } from "react-icons/md";
+
+import { LuMessageSquareText, LuVideo } from "react-icons/lu";
+import { MdAddCall } from "react-icons/md";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { FiArchive } from "react-icons/fi";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
@@ -146,7 +146,7 @@ const FriendDetails = () => {
             className="btn flex flex-col w-full h-24 text-xl"
           >
             <div className="text-2xl">
-              <FiPhoneCall />
+              <MdAddCall />
             </div>
             Call
           </button>
@@ -155,7 +155,7 @@ const FriendDetails = () => {
             className="btn flex flex-col w-full h-24 text-xl"
           >
             <div className="text-2xl">
-              <MdOutlineTextsms />
+              <LuMessageSquareText />
             </div>
             Text
           </button>

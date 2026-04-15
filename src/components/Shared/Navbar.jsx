@@ -1,13 +1,14 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
-import { GoHome } from "react-icons/go";
-import { RiTimeLine } from "react-icons/ri";
-import { ImStatsDots } from "react-icons/im";
+
+import { ImStatsBars2 } from "react-icons/im";
 import { NavLink } from "react-router";
+import { FaHouseUser } from "react-icons/fa";
+import { CiViewTimeline } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className="bg-base-100 shadow-sm">
+    <div className="bg-base-200 shadow-sm">
       <div className="navbar w-10/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -34,15 +35,15 @@ const Navbar = () => {
             >
               <NavLink to={"/"} className="btn">
                 {" "}
-                <GoHome /> Home
+                <FaHouseUser /> Home
               </NavLink>
               <NavLink to="/timeline" className="btn">
                 {" "}
-                <RiTimeLine /> Timeline
+                <CiViewTimeline /> Timeline
               </NavLink>
               <NavLink to="/stats" className="btn">
                 {" "}
-                <ImStatsDots /> Stats
+                <ImStatsBars2 /> Stats
               </NavLink>
             </ul>
           </div>
@@ -58,7 +59,7 @@ const Navbar = () => {
             }
           >
             {" "}
-            <GoHome /> Home
+            <FaHouseUser /> Home
           </NavLink>
           <NavLink
             to="/timeline"
@@ -67,7 +68,7 @@ const Navbar = () => {
             }
           >
             {" "}
-            <RiTimeLine /> Timeline
+            <CiViewTimeline /> Timeline
           </NavLink>
           <NavLink
             to="/stats"
@@ -76,7 +77,7 @@ const Navbar = () => {
             }
           >
             {" "}
-            <ImStatsDots /> Stats
+            <ImStatsBars2 /> Stats
           </NavLink>
         </div>
       </div>
