@@ -4,15 +4,14 @@ import "./index.css";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import RootLayout from "./layout/RootLayout";
-import FriendDetail from './pages/friendDetail/FriendDetail';
-// import TimeLinePage from "./pages/timelinepage/TimeLinePage";
-// import StatsPage from "./pages/statspage/StatsPage";
+import FriendDetail from "./pages/friendDetail/FriendDetail";
+
 import ErrorPage from "./pages/errorPage/ErrorPage";
 
 import FriendContext from "./context/FriendContext";
 import HomePage from "./pages/homePage/HomePage";
 import TimeLinePage from "./pages/timeLine/TimeLinePage";
-
+import Stats from "./pages/statsPage/StatsPage";
 
 const router = createBrowserRouter([
   {
@@ -35,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats",
-        // Component: Stats,
+        Component: Stats,
       },
     ],
     errorElement: <ErrorPage />,
@@ -43,10 +42,9 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
-    <StrictMode>
-        <FriendContext>
-              <RouterProvider router={router} />
-                  </FriendContext>
-                    </StrictMode>
-                    );
-)
+  <StrictMode>
+    <FriendContext>
+      <RouterProvider router={router} />
+    </FriendContext>
+  </StrictMode>,
+);

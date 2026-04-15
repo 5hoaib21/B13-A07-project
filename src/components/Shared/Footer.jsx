@@ -6,15 +6,15 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-[#244D3F] text-center text-white space-y-5 mt-5">
+    <div className="bg-[#2c483f] text-center text-white space-y-5 mt-5">
       <div className="flex justify-center items-center pt-24">
         <img src={FooterLogo} alt="Footer Logo" />
       </div>
-      <p>
+      <p className="text-gray-400">
         Your personal shelf of meaningful connections. Browse, tend, and nurture
         the relationships that matter most.
       </p>
-      <p className="text-2xl">Social Links</p>
+      <p className="text-2xl font-bold">Social Links</p>
       <div className="flex gap-4 text-black justify-center items-center">
         <div className="p-3 bg-gray-300 rounded-full cursor-pointer hover:bg-purple-500 hover:text-white duration-200">
           <FaInstagramSquare />
@@ -31,12 +31,14 @@ const Footer = () => {
       </div>
       <div className="flex justify-between w-10/12 mx-auto pb-6">
         <div>
-          <p>© 2026 KeenKeeper. All rights reserved.</p>
+          <p className="text-gray-400">
+            © 2026 KeenKeeper. All rights reserved.
+          </p>
         </div>
-        <div className="flex gap-3">
-          <a className="hover:underline">Privacy Policy</a>
-          <a className="hover:underline">Terms of Service</a>
-          <a className="hover:underline">Cookies</a>
+        <div className="flex gap-3 ">
+          <a className="hover:underline text-gray-400">Privacy Policy</a>
+          <a className="hover:underline text-gray-400">Terms of Service</a>
+          <a className="hover:underline text-gray-400">Cookies</a>
         </div>
       </div>
     </div>
