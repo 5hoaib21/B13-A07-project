@@ -6,11 +6,11 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-[#2c483f] text-center text-white space-y-5 mt-5">
-      <div className="flex justify-center items-center pt-24">
-        <img src={FooterLogo} alt="Footer Logo" />
-      </div>
-      <p className="text-gray-400">
+    <div className="bg-[#2c483f]  text-center text-white space-y-5 mt-5 ">
+      <h1 className="flex justify-center items-center text-7xl font-semibold text-center pt-16 pb-2 sm:mx-5">
+        <span className="font-bold">Keen</span>Keeper
+      </h1>
+      <p className="text-gray-400 mx-5">
         Your personal shelf of meaningful connections. Browse, tend, and nurture
         the relationships that matter most.
       </p>
@@ -29,17 +29,17 @@ const Footer = () => {
       <div className="flex w-11/12 mx-auto flex-col">
         <div className="divider after:bg-gray-300 before:bg-gray-300"></div>
       </div>
-      <div className="flex justify-between w-10/12 mx-auto pb-6">
-        <div>
-          <p className="text-gray-400">
-            © 2026 KeenKeeper. All rights reserved.
-          </p>
-        </div>
-        <div className="flex gap-3 ">
+      <div className="flex justify-center w-10/12 mx-auto pb-3">
+        <div className="flex gap-3  text-center">
           <a className="hover:underline text-gray-400">Privacy Policy</a>
           <a className="hover:underline text-gray-400">Terms of Service</a>
           <a className="hover:underline text-gray-400">Cookies</a>
         </div>
+      </div>
+      <div>
+        <p className="text-gray-400 pb-10">
+          © 2026 KeenKeeper. All rights reserved.
+        </p>
       </div>
     </div>
   );
