@@ -10,7 +10,7 @@ Friendship Tracker is an easy-to-use and engaging web application designed to he
 - Context API
 - Tailwind CSS
 - Daisy UI
-- React Toastify
+- React Hot Toastify
 - React Icons
 
 ## Key Features
