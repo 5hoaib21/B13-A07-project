@@ -6,7 +6,8 @@ import { MdAddCall } from "react-icons/md";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { FiArchive } from "react-icons/fi";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
+import toast, { Toaster } from "react-hot-toast";
 import { FriendsContext } from "../../context/FriendContext";
 
 const FriendDetails = () => {
@@ -170,6 +171,7 @@ const FriendDetails = () => {
           </button>
         </div>
       </div>
+      <Toaster />
     </div>
   );
 };

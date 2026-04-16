@@ -19,7 +19,7 @@ const RootLayout = () => {
       )}
 
       <Footer />
-      <ToastContainer
+      {/* <ToastContainer
         position="top-center"
         autoClose={5000}
         hideProgressBar={false}
@@ -31,7 +31,7 @@ const RootLayout = () => {
         pauseOnHover
         theme="light"
         transition={Bounce}
-      />
+      /> */}
     </div>
   );
 };

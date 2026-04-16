@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosPersonAdd } from "react-icons/io";
+import Test from "../Test";
 
 const Banner = () => {
   return (
@@ -16,6 +17,7 @@ const Banner = () => {
         <IoIosPersonAdd />
         Add a Friend
       </button>
+      {/* <Test /> */}
     </div>
   );
 };
