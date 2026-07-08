@@ -30,6 +30,18 @@ Friendship Tracker is an easy-to-use and engaging web application designed to he
 ### ⚡ User-Centric Design & Experience
 * **Minimalist & Engaging UI:** Designed with a clean, focused, and distraction-free interface to make personal tracking an enjoyable daily habit.
 * **Fluid Responsiveness:** Fully optimized layout that ensures smooth tracking and chart rendering on everything from mobile screens to desktop dashboards.
+
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   https://github.com/5hoaib21/B13-A07-project.git
+2. **Installation:**
+   ```bash
+   npm i
+
+
 ## Demo Link
 
 https://keen-keeper-alpha-eosin.vercel.app/
