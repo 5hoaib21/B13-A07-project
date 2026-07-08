@@ -2,6 +2,15 @@
 
 Friendship Tracker is an easy-to-use and engaging web application designed to help users organize and monitor their interactions with friends. It allows users to record calls, messages, and video chats, explore a timeline of their activities, and gain insights into their communication habits through visual charts.
 
+---
+
+
+## Demo Link
+
+https://keen-keeper-alpha-eosin.vercel.app/
+
+---
+
 ## Technology
 
 - React.js
@@ -41,7 +50,16 @@ Friendship Tracker is an easy-to-use and engaging web application designed to he
    ```bash
    npm i
 
+---
 
-## Demo Link
+## 🤝 Connect With Me
 
-https://keen-keeper-alpha-eosin.vercel.app/
+If you have any questions, feedback, or collaboration opportunities, feel free to reach out through any of the following channels:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mdabdurrahmanshoaib)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdabdurrahmanshoaib@gmail.com)
+
+---
+*Developed with 💻 and ☕ by **MD ABDUR RAHMAN SHOAIB***
+
+
